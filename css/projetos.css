@@ -1,0 +1,30 @@
+.projeto {
+   background-color: var(--branco-azulado);
+   color: var(--preto);
+   padding: 1em;
+   border-radius: 1em;
+   width: 100%;
+}
+
+.projeto__imagem {
+   background-color: brown;
+   width: 100%;
+}
+
+.projeto h3 {
+   margin: 1em 0 .5em;
+}
+
+.projeto p {
+   color: var(--azul-escuro);
+}
+
+.projeto__botao {
+   background-color: var(--azul-escuro);
+   border-radius: .25em;
+   color: var(--branco-azulado);
+   display: block;
+   padding: .5em 1em;
+   margin-top: 1em;
+   width: fit-content;
+}

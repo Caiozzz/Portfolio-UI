@@ -1,0 +1,36 @@
+#servicos h2 {
+   text-align: center;
+}
+
+#servicos ul {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   row-gap: 1em;
+}
+
+#servicos .card {
+   background-color: var(--branco-azulado);
+   color: var(--preto);
+   padding: 1em;
+   border-radius: 1em;
+   width: 15.5em;
+   grid-column: span 12;
+   justify-self: center;
+}
+
+#servicos .card img {
+   box-sizing: content-box;
+   width: 32px;
+   background-color: var(--azul-escuro);
+   border-radius: 1.5em;
+   padding: .5em;
+   margin-bottom: 1em;
+}
+
+@media screen and (min-width: 769px) {
+   
+   #servicos .card {
+      grid-column: span 4;
+      height: 180px;
+   }
+}
